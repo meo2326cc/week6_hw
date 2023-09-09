@@ -1,0 +1,156 @@
+@import '../node_modules/reset-css/reset.css';
+
+@import '../node_modules/bootstrap/scss/functions.scss';
+
+@import './variables.scss';
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Noto+Serif+TC:wght@700&family=Yeseva+One&display=swap');
+@import '../node_modules/material-icons/iconfont/material-icons.css';
+
+@import '../node_modules/swiper/swiper-bundle.min.css';
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F3F1E5;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+/*
+font-family: 'Noto Sans TC', sans-serif;
+font-family: 'Noto Serif TC', serif;
+font-family: 'Yeseva One', cursive;
+*/
+
+ul{
+    margin-bottom: 0;
+}
+
+h1{
+font-family: 'Yeseva One', cursive;
+}
+
+.banner{
+   background-image: url('./2023week6/event/13.jpg');
+   height: 518px;
+   background-size: cover;
+   background-position: center;
+}
+
+
+.recent{
+    a:hover{
+        text-decoration: underline;
+        color: #030303;
+    }
+}
+.actives{
+        display: block;
+        text-decoration: none !important;
+    }
+    .actives:hover{
+        color: #030303;
+        text-decoration: none;
+        &::before{
+            content: " ";
+            width: 20px;
+            height: 20px;
+            border-radius: 5px;
+            background-color: #FBFF22;
+            position: absolute;
+            z-index: -1;
+        }
+    }
+
+    
+
+
+.noto-sans{
+font-family: 'Noto Sans TC', sans-serif;
+}
+.noto-serif{
+font-family: 'Noto Serif TC', serif;
+}
+.yeseva{
+font-family: 'Yeseva One', cursive;
+}
+
+p{
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.title-secondary{
+    font-size: 24px;
+    line-height: auto;
+}
+
+.lh-60{
+    line-height: 60px;
+}
+
+.tags{
+    display: inline-block;
+    font-family: 'Noto Serif TC' , serif;
+    border: 1px solid #030303;
+    border-left: 5px solid #030303;
+    padding: 4px 24px;
+    &:hover{
+        background-color: #030303;
+        border-left: 5px solid #FBFF22;
+        color: #fff;
+    }
+}
+
+.d3{
+    transform-style: preserve-3d;
+}
+
+.tags2{
+    margin: auto;
+    background: #fff;
+    font-family: 'Noto Serif TC' , serif;
+    padding: 8px 16px;
+    display: block;
+    width: 96px;
+    text-align: center;
+    transform: rotate(-3deg) translateY(20px) translateZ(50px);
+    
+}
+
+.rotate-2{
+    transform: rotate(2deg);
+}
+.rotate--2{
+    transform: rotate(-2deg);
+}
+
+.swiper{
+    background-color: #000;
+  }
+  .swiper-wrapper {
+    transition-timing-function: linear;
+  }
+  .swiper-slide {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 3.2px;
+    width: auto;
+    color: #FBFF22;
+    background: #000;
+  }
+
+  input{
+    background-color: #F3F1E5;
+  }
+
