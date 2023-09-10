@@ -32,6 +32,7 @@ font-family: 'Yeseva One', cursive;
 
 ul{
     margin-bottom: 0;
+    padding-left: 0;
 }
 
 h1{
@@ -97,6 +98,7 @@ p{
     line-height: 60px;
 }
 
+
 .tags{
     display: inline-block;
     font-family: 'Noto Serif TC' , serif;
@@ -154,3 +156,12 @@ p{
     background-color: #F3F1E5;
   }
 
+  .w-343{
+    max-width: 343px;
+  }
+
+  @media (max-width:576px) {
+    .search{
+            width: 100%;
+    }
+}
